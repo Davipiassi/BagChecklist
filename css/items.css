@@ -1,0 +1,50 @@
+.list{
+    margin-top: 1em;
+}
+
+.item {
+    list-style: none;
+    padding: 0.5em 1em;
+    background: var(--white);
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.item__container{
+    padding: 0 0.5em;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    Background: #C5965F;
+    font-weight: 400;
+}
+
+.item__delete-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--red);
+    font-weight: 900;
+}
+
+@media screen and (min-width: 1280px){
+    .list{
+        margin-top: 0;
+        width: 100%;
+    }    
+}

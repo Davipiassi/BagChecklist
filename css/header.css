@@ -1,0 +1,38 @@
+.navBar{
+    height: 56px;
+    background-color: var(--blue);
+}
+
+.navBar__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__title{
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.container__title > span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+
+@media screen and (min-width: 1280px){
+    .navBar{
+        height: 80px;
+    }
+
+    .container__title{
+        font-size: 28px;
+    }
+
+    .container__title > span{
+        font-size: 34px;
+    }
+}

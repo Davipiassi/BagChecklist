@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BagChecklist</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<header class="navBar">
+    <div class="navBar__container">
+        <h1 class="container__title"><span>Bag</span>CheckList</h1>
+    </div>
+</header>
+<body>
+    <main class="content">
+        <div class="card">
+            <h3 class="card__title">Inserir Item</h3>
+            <div class="card__container">
+                <img class="container__image" src="img/bag.png" alt="Mochila">
+                <form action="" class="container__form" id="novoItem">
+                    <label for="item">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="item">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade">
+                    <input type="submit" value="Adicionar" id="submit">
+                </form>
+            </div>
+        </div>
+        
+        <ul class="list" id="list">
+            <!-- the items will be shown here -->
+        </ul>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.card{
+    padding: 1em 1em;
+    background: #C5965F;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.card__title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0.3em;
+}
+
+.card__container{
+    display: flex;
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.container__image{
+    width: 35%;
+}
+
+.container__form{
+    width: 100%;
+}
+
+.container__form input{
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    padding: 1em 0.5em;
+    border-radius: 7px;
+    border: 2px solid #40112D;
+}
+
+.container__form label{
+    font-size: 14px;
+    margin-left: 0.4em;
+}
+
+#submit{
+    margin-bottom: 0;
+    background-color: #40112D;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0.3em;
+}
+
+
+@media screen and (min-width: 1280px){
+    .card{
+        padding: 1.5em 1.5em;
+        gap: 1em;
+        min-width: 40%;
+        min-height: 18.3em;
+        max-height: 18.3em;
+    }
+
+    .card__title{
+        font-size: 24px;
+    }
+
+    .container__form input{
+        height: 3em;
+        box-sizing: border-box;
+        margin-top: 0.3em;
+    }
+
+    .container__form label{
+        font-size: 14px;
+        margin-left: 0.4em;
+    }
+    
+}

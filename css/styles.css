@@ -1,0 +1,32 @@
+@import url("header.css");
+@import url("form.css");
+@import url("items.css");
+
+:root{
+    --white-bg: #f1f8fc;
+    --white: #ffffff;
+    --blue: #0261A2;
+    --black: #15191B;
+    --red: #a80303;
+    --main-font: "Poppins";
+}
+
+body{
+    background-color: var(--white-bg);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content{
+    padding: 1.5em;
+}
+
+@media screen and (min-width: 1280px){
+    .content{
+        padding: 3em;
+        display: flex;
+        gap: 2em;
+    }
+}
+
